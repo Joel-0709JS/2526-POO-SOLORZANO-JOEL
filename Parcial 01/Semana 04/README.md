@@ -26,7 +26,20 @@ Polimorfismo: Cada tipo de prenda redefine el método mostrar\_info()...
 
 Descripción
 
-Modela un restaurante llamado "Colorado J.S", donde los clientes pueden reservar mesas...
+Modela un restaurante llamado "Colorado J.S", donde los clientes pueden reservar mesas  según su capacidad. El sistema evita duplicados y permite cancelar reservas.
+
+Principios de POO aplicados
+Encapsulamiento: Atributos como __disponible y __cliente son privados.
+Abstracción: El usuario no conoce la lógica interna de gestión de estado.
+Interacción entre objetos:
+El Cliente llama al método reservar() de una Mesa.
+La Mesa actualiza su estado y registra al cliente.
+El Restaurante coordina mesas y clientes.
+Diseño modular: Cada clase tiene una única responsabilidad.
+Clases principales
+Mesa
+Cliente
+Restaurante
 
 
 
