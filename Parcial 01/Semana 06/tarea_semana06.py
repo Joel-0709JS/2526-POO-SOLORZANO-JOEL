@@ -12,7 +12,8 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
 
-    def mostrar_info(self):
+    def \
+            mostrar_info(self):
         """Método que muestra la información básica de la persona"""
         return f"Nombre: {self.nombre}, Edad: {self.edad}"
 
