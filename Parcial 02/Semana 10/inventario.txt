@@ -1,0 +1,8 @@
+[
+    {
+        "id": 2,
+        "nombre": "3",
+        "cantidad": 4,
+        "precio": 5.0
+    }
+]
